@@ -1,3 +1,8 @@
+// Lab 1 Exercises
+// Author @ Tan Zhao Yea (1802992)
+// Task 2
+
+
 import java.util.Scanner;
 
 class BMI {
