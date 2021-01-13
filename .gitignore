@@ -5,7 +5,7 @@
 out/
 
 # intelliJ iml file
-.iml 
+*.iml 
 
 # Compiled class file
 *.class
