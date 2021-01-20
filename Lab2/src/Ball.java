@@ -31,7 +31,8 @@ class BallTest extends JPanel {
         ballD.calculateBallCenter();
         int ballSize = ballD.getBallSize();
 
-        g.fillOval((int) ballD.ballCenterX, (int) ballD.ballCenterY, ballSize, ballSize);
+        g.fillOval((int) (ballD.ballCenterX - ballD.radius),
+                (int) (ballD.ballCenterY - ballD.radius), ballSize, ballSize);
     }
 
     public static void main(String[] args) {
