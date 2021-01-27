@@ -11,20 +11,20 @@ class Main {
         Scanner in = new Scanner(System.in);
 
         // Get Annual Interest Rate
-        System.out.println("Enter annual interest rate, for example, 8.25: ");
+        System.out.print("Enter annual interest rate, for example, 8.25: ");
         double annualInterestRate = in.nextDouble();
 
         // Get Number of years to Loan
-        System.out.println("Enter number of years as an integer: ");
+        System.out.print("\nEnter number of years as an integer: ");
         int numberOfYears = in.nextInt();
 
         // Get Loan Amount
-        System.out.println("Enter loan amount, for example, 12000.95: ");
+        System.out.print("\nEnter loan amount, for example, 120000. 95: ");
         double loanAmount = in.nextDouble();
 
         // Calculate the Loan
         Loan l1 = new Loan(annualInterestRate, numberOfYears, loanAmount);
-        System.out.println("The loan is created:");
+        System.out.println("\nThe loan was created:");
         System.out.printf("The monthly payment is %.2f\n", l1.getMonthlyPayment());
         System.out.printf("The total payment is %.2f\n", l1.getAnnualPayment());
     }
